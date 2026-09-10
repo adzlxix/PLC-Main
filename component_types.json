@@ -1,0 +1,12 @@
+{
+  "types": [
+    "bottle",
+    "box",
+    "bucket",
+    "bucket lid",
+    "cap",
+    "drum",
+    "label",
+    "tote"
+  ]
+}

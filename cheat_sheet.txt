@@ -1,0 +1,86 @@
+===============================
+ DAILY WORKFLOW CHEAT SHEET
+ For My PLC Inventory System
+===============================
+
+LOCATION
+--------
+Mac:      /Users/adz/Documents/PLC
+Windows:  C:\Users\adam\Documents\PLC
+
+Every session follows the same flow:
+
+-------------------------------------
+WHEN I START WORKING
+-------------------------------------
+1. Open VS Code
+2. Open the project folder:
+   - File → Open Folder → PLC
+3. Pull the latest changes:
+   - VS Code Source Control → Pull / Sync (↻)
+
+-------------------------------------
+ACTIVATE VIRTUAL ENVIRONMENT
+-------------------------------------
+Mac:
+    cd /Users/adz/Documents/PLC
+    source .venv/bin/activate
+
+Windows:
+    cd C:\Users\adam\Documents\PLC
+    venv\Scripts\activate
+
+-------------------------------------
+RUN THE PROGRAM
+-------------------------------------
+python main.py
+
+-------------------------------------
+WHILE WORKING
+-------------------------------------
+- Edit .py files
+- Edit .csv files
+- Test changes by running main.py
+- Keep commits small and meaningful
+
+-------------------------------------
+WHEN FINISHING WORK
+-------------------------------------
+1. Stage changes:
+   - VS Code Source Control → + or "Stage All"
+2. Commit with a message:
+   Example: updated production logic, fixed CSV paths
+3. Push to GitHub:
+   - Sync (↻) or Push (↑)
+
+-------------------------------------
+SWITCHING BETWEEN DEVICES
+-------------------------------------
+ON THE COMPUTER I'M STARTING ON:
+    git pull      (download latest)
+
+WHEN I'M DONE WORKING:
+    git add .
+    git commit -m "message"
+    git push
+
+This ensures both devices always stay synced.
+
+-------------------------------------
+INSTALLING REQUIREMENTS ON NEW DEVICES
+-------------------------------------
+pip install -r requirements.txt
+
+-------------------------------------
+NOTES FOR MYSELF
+-------------------------------------
+- Never open random folders in VS Code.
+  Always open the PLC folder directly.
+- VS Code should auto-detect the venv. If not,
+  use "Python: Select Interpreter" and choose .venv/bin/python.
+- Never edit code without pulling first.
+- Never leave without pushing changes.
+
+===============================
+ END OF CHEAT SHEET
+===============================

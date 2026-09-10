@@ -1,0 +1,59 @@
+INV-01 update audit
+Baseline: verified 08/31/2026 physical INV count supplied by user.
+Movements applied: production 08/31-09/09, excluding Imperial; receipts supplied; Clear Round Bottle overridden to current truth 0.
+No FG or RM files modified.
+
+Receipts:
+- Quik Lite Cap: +109150
+- Resolute DEF 2.5 Gal Box Classic: +25380
+- Resolute DEF 2.5 Gal Box Premium: +8500
+
+Unresolved / assumptions:
+- 09/01/2026: X1 Drum Bug Wash +32 — not applied; no unambiguous matching drum kit identified.
+- 09/07/2026: X3 pallets PLC50 — not applied; no PLC50 kit exists in current or backup Kits.csv files.
+- 08/31/2026: X1 pallet “Globel power” interpreted as Global Power 50.
+- Imperial production on 08/31 and 09/03 excluded.
+- 09-01-2026: Drum RV-50 Pink -> RV-50 Pink Drum Label usage 3.03 not applied; component absent from INV baseline/code.
+- 09-02-2026: Drum RV-50 Pink -> RV-50 Pink Drum Label usage 4.04 not applied; component absent from INV baseline/code.
+- 09-03-2026: Drum RV-50 Pink -> RV-50 Pink Drum Label usage 24.24 not applied; component absent from INV baseline/code.
+- 09-04-2026: Drum RV-50 Pink -> RV-50 Pink Drum Label usage 16.16 not applied; component absent from INV baseline/code.
+- 09-04-2026: Resolute -20 W/Wash -> Black DOT Diamond Label usage 350.00 not applied; component absent from INV baseline/code.
+- 09-04-2026: Resolute -30 W/Wash -> Black DOT Diamond Label usage 175.00 not applied; component absent from INV baseline/code.
+- 09-05-2026: PureAir DEF -> PureAir DEF box usage 241.20 not applied; component absent from INV baseline/code.
+- 09-08-2026: Resolute -20 W/Wash -> Black DOT Diamond Label usage 315.00 not applied; component absent from INV baseline/code.
+- 09-08-2026: Drum DEF -> DEF Drum Label usage 8.04 not applied; component absent from INV baseline/code.
+- 09-08-2026: PureAir DEF -> PureAir DEF box usage 160.80 not applied; component absent from INV baseline/code.
+- 09-09-2026: PureAir DEF -> PureAir DEF box usage 402.00 not applied; component absent from INV baseline/code.
+- 09-09-2026: Totes RV-100 Blue -> Empty Tote 275 Gal usage 3.00 not applied; component absent from INV baseline/code.
+
+Largest INV usage totals:
+- White Cap: 36214.56
+- Clear Round Bottle: 27997.20
+- RV Antifreeze -50 Label: 22932.00
+- Black Oil Cap: 12132.12
+- Yellow Oil Bottle: 12072.06
+- Quik Lite Front Label: 11681.28
+- Quik Lite Back Label: 11681.28
+- Quik Lite Cap: 11456.64
+- Quik Lite Bottle: 11232.00
+- 4 Seasons Oil 5W20 Front Label: 4542.72
+- 4 Seasons Oil 5W20 Back Label: 4542.72
+- OTR 0 Front Label: 4268.16
+- OTR 0 Back Label: 4268.16
+- F Style Blank Box: 4241.52
+- Resolute -20 W/Wash Label: 4149.60
+- Clear F Style Bottle: 4114.26
+- 8Brand Box: 3798.90
+- Yellow Antifreeze Bottle: 3490.56
+- 4 Seasons Oil 5W30 Front Label: 3407.04
+- 4 Seasons Oil 5W30 Back Label: 3407.04
+- 4 Seasons Oil 10W40 Front Label: 3407.04
+- 4 Seasons Oil 10W40 Back Label: 3407.04
+- Green Power 50 Front Label: 3369.60
+- Green Power 50 Back Label: 3369.60
+- DEF Cap: 2733.60
+- DEF 2.5 Gal Bottle: 2733.60
+- DEF 2.5 Gal Spout: 2733.60
+- 4 Seasons Oil Box: 2002.00
+- Resolute DEF 2.5 Gal Box Premium: 1206.00
+- 4 Seasons Oil 10W30 Front Label: 1135.68

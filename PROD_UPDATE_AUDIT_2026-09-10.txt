@@ -1,0 +1,13 @@
+PROD-01 update audit
+Added daily production supplied by user for 08/31/2026 through 09/09/2026.
+Rows added: 52
+Imperial rows retained in production history and explicitly marked Imperial.
+Existing INV-01 update retained unchanged. FG and RM files not modified.
+
+Special mappings / unresolved kit history entries:
+- 08/31 Globel power -> Global Power 50.
+- 09/01 Bug Wash +32 drum logged as Drum Bug Wash +32 / TBD; no matching kit, history only.
+- 09/07 PLC50 logged as PLC50 / TBD, 35 cases per pallet assumed only for production-log unit conversion; no matching kit, history only.
+- 09/07 Super Purple: 96 individual buckets logged; no current matching bucket kit.
+- RV-50 pallet entries mapped to RV Antifreeze -50; charcoal mapped to Quick Lite.
+- PurAire DEF mapped to PureAir DEF.

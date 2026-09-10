@@ -1,0 +1,48 @@
+Line,MachineType/Name,Machine Code,Date,Downtime Start,Downtime End,Downtime Minutes,Downtime Category,Issue,Work Done,Parts Used,Tech Initials,Notes
+3,Filling Machine,L3-FLM-00,12-08-2025,10:00,19:00,540,Mechanical,"Machine is overflowing. Not responding to sensors, different nozzles are overflowing at different instances. Possible serious repair or circuitboard malfunction. Sensors also need replacing.",Waiting for Tech,,ANGEL,Started before hours at 06:00
+3,Filling Machine,L3-FLM-00,12-09-2025,07:00,19:00,720,Mechanical,"Machine is overflowing. Not responding to sensors, different nozzles are overflowing at different instances. Possible serious repair or circuitboard malfunction. Sensors also need replacing.",Waiting for Tech,,ANGEL,Continued from previous day
+3,Filling Machine,L3-FLM-00,12-10-2025,07:00,12:00,300,Mechanical,"Machine is overflowing. Not responding to sensors, different nozzles are overflowing at different instances. Possible serious repair or circuitboard malfunction. Sensors also need replacing.",Waiting for Tech,,ANGEL,Continued from previous day
+3,Label Machine,L3-LBLM-25,12-09-2025,13:00,19:00,360,Mechanical,"Routine Maintenance Found that belt was worn and loose, belt tigt",Belt removed. Machine Down,,ANGEL,Replacement belt ordered
+3,Label Machine,L3-LBLM-25,12-10-2025,07:00,16:00,540,Mechanical,"Routine Maintenance Found that belt was worn and loose, belt tigt",Belt removed. Machine Down,,ANGEL,Replacement belt ordered and replaced| Continued from previous day
+3,Bottle Printer,L3-BTP-25,12-10-2025,11:00,11:06,6,Quality Hold,Printer Faulty,Printer moved closer to bottles and head was cleaned,,AI,
+3,Bottle Printer,L3-BTP-25,12-04-2025,08:15,08:29,14,Changeover,Printer Out of Ink,Replaced 1/2 inch Ink Cartridge,1/2 Inch Ink Cartridge,AI,
+3,Label Machine,L3-LBLM-25,12-05-2025,13:20,13:35,15,Mechanical,Roller Stuck,Roller cleaned and tightened,,AI,Roller getting stuck due to sticky label residue. Advise cleaning regulary by operator/tech
+3,Bottle Printer,L3-BTP-25,12-08-2025,09:00,09:10,10,Mechanical,Printing Malfunction,Printer head cleaned,,AI,Bottles are wet and messing with printer head. Cleaned and moved back
+1,Filling Machine,L1-FLM-00,12-09-2025,11:00,11:10,10,Mechanical,Sensor Fault,Unplugged and reset System,,AI,"Sensor that counts bottles did not open, resetting the system resolved the issue"
+1,Label Machine,L1-LBLM-25,12-09-2025,13:00,13:15,15,Mechanical,Label Plate Tape,Tape replaced,Plate Tape,AI,Label tape was tearing labels. Plate removed from one side and replaced with new tape. Line down for 15 minutes
+1,Label Machine,L1-LBLM-25,12-15-2025,08:10,08:25,15,Mechanical,Plate Ripping Label,Plate Tape Changed,Plate Tape,AI,
+3,Label Machine,L3-LBLM-25,12-15-2025,07:40,07:50,10,Mechanical,Label Not sticking correctly,Adjusted settings and height,,AI,
+1,Cap Sorter,L1-CSM-00,12-15-2025,08:25,08:27,2,Mechanical,Not sorting Caps correctly,Air pressure adjusted,,AI,
+3,Label Machine,L3-LBLM-25,12-15-2025,08:37,08:57,20,Changeover,Line stopped due to testing new label,,,AI,
+1,Label Machine,L1-LBLM-25,12-16-2025,11:30,11:50,20,Changeover,Different Sized Bottle,Adjustment to accomodate new bottle size,,AI,
+1,Label Machine,L1-LBLM-25,12-16-2025,14:00,14:20,20,Mechanical,Green Pulley (Belt) snapped,Replaced belt with spare one,Green belt,AI,
+1,LINE-LEVEL,,12-19-2025,15:00,18:00,180,Changeover,Line Stopped Due to changeover to Windshield,Changed all machines to accomodate new clear round bottles,,AI,
+3,Label Machine,L3-LBLM-25,12-18-2025,12:00,12:36,36,Mechanical,Label Machine stopped working,Adjusted label feeding time and plate tape replaced,plate tape,AI,
+3,LINE-LEVEL,,12-30-2025,07:00,07:15,15,Changeover,FrostX to PolarX,Label Change and plate tape change,Plate Tape,ADZ,
+3,Label Machine,L3-LBLM-25,12-30-2025,07:50,08:15,25,Mechanical,Conveyor stopped working,"Conveyor assembly opened, and cleared all stuck labels. Conveyor restarted",,ADZ,
+1,LINE-LEVEL,,12-29-2025,15:00,16:45,105,Changeover,Changeover from Windshield Wash back to Antifreeze,"All machines adjusted, belts corrected, spacers adjusted, fill heads correctly alligned, system flushed. Cross check all machinery working with yellow bottles",,ADZ,
+1,LINE-LEVEL,,01-05-2026,11:00,19:00,480,Material Shortage,No Yellow Antifreeze Bottles,Waiting for Delivery,,ADZ,
+1,LINE-LEVEL,,01-06-2026,07:00,19:00,720,Material Shortage,No Yellow Antifreeze Bottles,Waiting for Delivery,,ADZ,Continued from previous day
+1,LINE-LEVEL,,01-07-2026,07:00,19:00,720,Material Shortage,No Yellow Antifreeze Bottles,Waiting for Delivery,,ADZ,Continued from previous day
+1,LINE-LEVEL,,01-08-2026,07:00,19:00,720,Material Shortage,No Yellow Antifreeze Bottles,Waiting for Delivery,,ADZ,Continued from previous day
+1,LINE-LEVEL,,01-09-2026,07:00,19:00,720,Material Shortage,No Yellow Antifreeze Bottles,Waiting for Delivery,,ADZ,Continued from previous day
+3,LINE-LEVEL,,01-07-2026,12:00,13:00,60,Cleaning / Sanitation,Spill,,,ADZ,
+3,Label Machine,L3-LBLM-25,01-20-2026,07:35,07:55,20,Mechanical,Plate Tape Issue,Plate Tape Replaced,Plate Tape,AI,
+3,Label Machine,L3-LBLM-25,01-20-2026,09:15,10:00,45,Changeover,Label Changeover,Adjustments made & machine fixed,,AI,
+3,Label Machine,L3-LBLM-25,01-26-2026,08:11,08:33,22,Mechanical,Plate Tape,Plate Tape Replaced,Plate Tape,AI,
+3,LINE-LEVEL,,01-29-2026,12:30,19:00,390,Other,Line stopped due to personelle needed for DEF Machine unloading,,,AD,Ended after hours at 20:00 | OtherCategory: DEF Machine Arrival
+3,LINE-LEVEL,,01-30-2026,12:30,19:00,390,Other,Line stopped due to personelle needed for DEF Machine unloading,,,AD,Ended after hours at 20:00 | OtherCategory: DEF Machine Arrival
+3,Label Machine,L3-LBLM-25,01-28-2026,08:35,08:55,20,Mechanical,Plate Tape Issue,Plate Tape Replaced,Plate Tape,AI,
+3,Label Machine,L3-LBLM-25,01-29-2026,09:35,10:00,20,Mechanical,Plate Tape Issue,Plate Tape Replaced,Plate Tape,AI,
+3,Label Machine,L3-LBLM-25,01-30-2026,07:35,08:00,20,Mechanical,Plate Tape Issue,Plate Tape Replaced,Plate Tape,AI,
+1,LINE-LEVEL,,02-04-2026,09:00,11:00,120,Mechanical,Compressor Failure,Compressor Repaired,new stem valve,AI,
+2,LINE-LEVEL,,02-04-2026,09:00,11:00,120,Mechanical,Compressor Failure,Compressor Repaired,new stem valve,AI,
+3,LINE-LEVEL,,02-04-2026,09:00,11:00,120,Mechanical,Compressor Failure,Compressor Repaired,new stem valve,AI,
+1,Label Machine,L1-LBLM-25,02-04-2026,07:30,08:15,45,Mechanical,Plate Tape Issue,Plate Tape Replaced,Plate Tape,AI,
+3,Label Machine,L3-LBLM-25,02-04-2026,14:35,15:00,25,Mechanical,Plate Tape Issue,Plate Tape Replaced,Plate Tape,AI,
+1,Label Machine,L1-LBLM-25,02-05-2026,08:35,09:00,25,Mechanical,Plate Tape Issue,Plate Tape Replaced,Plate Tape,AI,
+3,Label Machine,L3-LBLM-25,02-05-2026,09:00,09:25,25,Mechanical,Plate Tape Issue,Plate Tape Replaced,Plate Tape,AI,
+1,LINE-LEVEL,N/A,02-09-2026,11:00,19:00,480,Material Shortage/HALF DAY,Low bottles,,,AI,
+2,LINE-LEVEL,N/A,02-09-2026,11:00,19:00,480,Material Shortage/HALF DAY,Low bottles,,,AI,
+3,LINE-LEVEL,N/A,02-09-2026,11:00,19:00,480,Material Shortage/HALF DAY,Low bottles,,,AI,
+

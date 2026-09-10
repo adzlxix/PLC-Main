@@ -1,0 +1,42 @@
+PLC ERP UPDATE - 08/26/2026
+
+INV-01 reset to confirmed 06/30/2026 baseline and production replayed: 155 production rows after baseline.
+New production rows added: 120 (Imperial rows excluded).
+New products: PureAir DEF; JEGS Break-In Oil 10W30.
+Kit corrections: confirmed Antifreeze/Oil BOM differences, Super Purple F Style Blank Box, RV50 tote 1 unit = 1 tote.
+Xtreme 07/08/2026 uses Yellow Antifreeze Bottle only; other Xtreme rows use Black Antifreeze Bottle.
+Negative INV items after replay (expected until receiving backfill): 30.
+
+Most negative inventory balances:
+                 Component   Quantity
+        Clear Round Bottle -65550.300
+  Yellow Antifreeze Bottle -47815.432
+      Clear F Style Bottle -33184.992
+Green Power 50 Front Label -23123.520
+ Green Power 50 Back Label -23123.520
+         Yellow Oil Bottle -15804.460
+     Yellow Antifreeze Cap -10945.520
+        xtreme front label  -6609.600
+         xtreme back label  -6609.600
+   Black Antifreeze Bottle  -5834.048
+        DEF 2.5 Gal Bottle  -4999.600
+  Simply Green Front Label  -4717.440
+   Simply Green Back Label  -4717.440
+         4 Seasons Oil Box  -3082.000
+         DEF 2.5 Gal Spout  -3049.600
+          Blue Drum 55 Gal   -679.262
+        White Round Bottle   -468.760
+   Black DOT Diamond Label   -280.000
+ Blue Laundry Bucket Label   -201.000
+             Oil Blank Box   -182.000
+Green Laundry Bucket Label   -160.800
+                   4-1 Box   -142.960
+        Empty Tote 275 Gal    -83.000
+     RV-50 Pink Drum Label    -40.400
+   Super Purple Drum Label    -22.110
+            DEF Drum Label    -10.050
+    Drum Fleet Power Label     -8.000
+Global Power 50 Drum Label     -6.060
+  Cool Power 50 Drum Label     -6.000
+         Tote OTR-25 Label     -3.000
+Final inventory adjustment: all INV-01 quantities below zero were reset to 0 at user request.
