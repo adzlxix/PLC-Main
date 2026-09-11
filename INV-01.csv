@@ -1,4 +1,4 @@
-﻿Component,ComponentCode,ComponentType,Quantity,DateReceived,Notes,LeadTimeDays,MaxCapacity,SafetyFactor,ReorderPoint
+Component,ComponentCode,ComponentType,Quantity,DateReceived,Notes,LeadTimeDays,MaxCapacity,SafetyFactor,ReorderPoint
 3.5 Gal Bucket (Natural),TBDBUCKNAT,bucket,3035.0,,Line 4 – Choice Laundry Detergent Gain Type 3.5 Gal,14.0,0.0,1.1,42209.99999999999
 4 Seasons Antifreeze Back Label,LABEL-6155-B,label,108543.0,1-1-2026,Line 1 – 4 Seasons Antifreeze,14.0,0.0,1.0,163537.92
 4 Seasons Antifreeze Front Label,LABEL-6155-F,label,108543.0,1-1-2026,Line 1 – 4 Seasons Antifreeze,14.0,0.0,1.0,163537.92
@@ -20,11 +20,11 @@ All Temp Box,BOX-ATAFC,box,10584.0,1-1-2026,Line 1 – Global Power 50,14.0,0.0,
 All Temp Bug Wash +32 Label,LBL-ATBW,label,6000.0,1-1-2026,Line 3 – All Temp Bug Wash +32,14.0,0.0,1.0,183456.0
 All Temp Summer Wash +32 Label,LBL-ATSWW-12507,label,26345.0,1-1-2026,Line 3 – All Temp Summer Wash +32,14.0,0.0,1.0,183456.0
 All Temp W/Wash Deicer -30 Label,LBL-61123-DEICER,label,6000.0,1-1-2026,,14.0,0.0,1.0,183456.0
-Antifreeze Box,BOX-AF-NEW,box,19339.12,1-1-2026,Line 1 – 4 Seasons Antifreeze,14.0,0.0,1.0,26339.039999999997
+Antifreeze Box,BOX-AF-NEW,box,19339.12,1-1-2026,Line 1 – 4 Seasons Antifreeze,14.0,0.0,1.0,26339.04
 AquaX Label,LBL-45957,label,43838.0,1-1-2026,Line 3 – AquaX W/Wash +32,14.0,0.0,1.0,183456.0
 Black Antifreeze Bottle,BOT-AF-BLK,bottle,7102.0,07-10-2026,Line 1 – Xtreme AF,14.0,0.0,1.0,158820.47999999998
-Black Oil Bottle,BOT-OIL-QTBW,bottle,203.0,04-30-2026,Line 2 – 4 Seasons Oil 10W40,14.0,0.0,1.0,122915.51999999997
-Black Oil Cap,CAP-OIL,cap,153867.88,04-09-2026,Line 2 – 4 Seasons Oil 5W20,14.0,0.0,1.0,123527.04000000001
+Black Oil Bottle,BOT-OIL-QTBW,bottle,203.0,04-30-2026,Line 2 – 4 Seasons Oil 10W40,14.0,0.0,1.0,122915.51999999996
+Black Oil Cap,CAP-OIL,cap,153867.88,04-09-2026,Line 2 – 4 Seasons Oil 5W20,14.0,0.0,1.0,123527.04
 Bleach Cap,CAP-BL,cap,31182.0,1-1-2026,Line 7 – Fresh Choice Bleach,14.0,0.0,1.0,118776.0
 Bleach Label,LBL-FCBLEACH,label,5126.0,1-1-2026,Line 7 – Fresh Choice Bleach,14.0,0.0,1.0,122304.0
 Blue Drum 55 Gal,DRUM-MT55,drum,-79.087,07-10-2026,Line 4 – Drum OTR-0,14.0,0.0,1.0,2813.9999999999995
@@ -32,7 +32,7 @@ BugX Label,LBL-45956,label,82690.0,06-15-2026,Line 3 – BugX W/Wash +32,14.0,0.
 Clear F Style Bottle,BOT-F-NAT,bottle,5385.74,07-13-2026,Line 1 – OTR -25 W/Wash,14.0,0.0,1.1,157641.12
 Clear Round Bottle,BOTTLE-RD-NAT,bottle,0.0,05-23-2026,Line 3 – RV Antifreeze -50,14.0,0.0,1.0,178164.0
 Cool Power 100 Back Label,LBL-ATCPFS-B,label,5000.0,1-1-2026,,14.0,0.0,1.0,163537.92
-Cool Power 100 Box Label,LBL-ATCPFS-BOX,label,1500.0,1-1-2026,,14.0,0.0,1.0,52678.079999999994
+Cool Power 100 Box Label,LBL-ATCPFS-BOX,label,1500.0,1-1-2026,,14.0,0.0,1.0,52678.08
 Cool Power 100 Front Label,LBL-ATCPFS-F,label,5000.0,1-1-2026,,14.0,0.0,1.0,163537.92
 Cool Power 50 Back Label,LBL-ATCP50-B,label,28652.0,1-1-2026,Line 1 – Cool Power 50,14.0,0.0,1.0,163537.92
 Cool Power 50 Box Label,LBL-ATCP50-BOX,label,2902.0,1-1-2026,Line 1 – Cool Power 50,14.0,0.0,1.0,0.0
@@ -42,7 +42,7 @@ D51041 40 # PAIL - CHROMATINT YELLOW GRHF LIQUID,D51041,Pail,27.0,1-1-2026,Inven
 D93287X 40 # PAIL - CHROMATINT RED 1887 LIQUID,D93287X,Pail,24.0,1-1-2026,Inventory Check in PLC end of December,14.0,0.0,1.0,0.0
 D949003 40 # PAIL - CHROMATINT VIOLET 3544 LIQUID,D949003,Pail,28.0,1-1-2026,Inventory Check in PLC end of December,14.0,0.0,1.0,0.0
 DEF 2.5 Gal Bottle,BOT-DEF2.5,bottle,3382.4,04-09-2026,Line 5 – Resolute DEF 2.5 Gal classic,14.0,0.0,1.0,33767.99999999999
-DEF 2.5 Gal Spout,DEFSPOUT,spout,432.4,03-31-2026,Line 5 – Resolute DEF 2.5 Gal classic,14.0,0.0,1.1,33767.99999999999
+DEF 2.5 Gal Spout,DEFSPOUT,spout,18460.0,09-10-2026,Stocktake set count,14.0,0.0,1.1,33767.99999999999
 DEF Cap,CAP-DEF,cap,54987.4,1-1-2026,Line 5 – Resolute DEF 2.5 Gal classic,14.0,0.0,1.0,33767.99999999999
 Drum Green Power -34 Label,LBL-ATGP50-55,label,20.0,,Line 4 – Drum Green Power -34,14.0,0.0,1.1,2800.0
 Drum OTR +32 Label,TBD-OTR32DR-LBL,label,1000.0,06-30-2026,Added from confirmed 06/30/2026 inventory baseline,0.0,0.0,1.0,0.0
@@ -51,7 +51,7 @@ Drum OTR-25 Label,OTRW255-LBL,label,5796.0,,Line 4 – Drum OTR-25,14.0,0.0,1.1,
 Empty Totes Recon 275 gal,TOTE-MT275,Tote,66.0,1-1-2026,Received via RM-01 (auto-created),14.0,0.0,1.1,0.0
 Extreme 50/50 (RED) Back Label,TBD-EXT50-B,label,23390.0,06-30-2026,Added from confirmed 06/30/2026 inventory baseline,0.0,0.0,1.0,0.0
 Extreme 50/50 (RED) Front Label,TBD-EXT50-F,label,23390.0,06-30-2026,Added from confirmed 06/30/2026 inventory baseline,0.0,0.0,1.0,0.0
-F Style Blank Box,BOX-FSTYLEBLANK,box,7458.48,05-07-2026,Line 1 – Xtreme AF,14.0,0.0,1.1,184146.47999999998
+F Style Blank Box,BOX-FSTYLEBLANK,box,7458.48,05-07-2026,Line 1 – Xtreme AF,14.0,0.0,1.1,184146.48
 Fleet Power 50 Back Label,LBL-ATCFP-B,label,26428.0,1-1-2026,,14.0,0.0,1.0,163537.92
 Fleet Power 50 Box Label,LBL-ATCFP-BOX,label,2000.0,1-1-2026,,14.0,0.0,1.1,0.0
 Fleet Power 50 Front Label,LBL-ATCFP-F,label,26428.0,1-1-2026,,14.0,0.0,1.0,163537.92
@@ -95,7 +95,7 @@ OTR +32 BackLabel,TBD-OTR32-B,label,30000.0,06-30-2026,Added from confirmed 06/3
 OTR +32 Front Label,LBL-52091-F,label,30000.0,,,14.0,0.0,1.1,161179.19999999998
 OTR 0 Back Label,LBL-52089-B,label,19731.84,,,14.0,0.0,1.1,163537.92
 OTR 0 Front Label,LBL-52089-F,label,19731.84,,,14.0,0.0,1.1,163537.92
-Plain 6/1 Box,BOX-PLAIN-6/1,box,5152.54,01-30-2026,Line 3 – Resolute +32 Bug Wash,14.0,0.0,1.1,29591.100000000002
+Plain 6/1 Box,BOX-PLAIN-6/1,box,5152.54,01-30-2026,Line 3 – Resolute +32 Bug Wash,14.0,0.0,1.1,29591.1
 PolarX Label,LBL-45958,label,285367.0,01-07-2026,Line 3 – PolarX W/Wash -20,14.0,0.0,1.0,183456.0
 Pool Shock Cap,CAP-PS,cap,53101.0,1-1-2026,Line 3 – Pool Shock,14.0,0.0,1.0,162892.80000000002
 Pool Shock Label,LABEL-PSLC125,label,5201.0,1-1-2026,Line 3 – Pool Shock,14.0,0.0,1.0,167731.2
@@ -130,5 +130,5 @@ White Round Bottle,BOTTLE-RD-WHT,bottle,250.0,1-1-2026,Line 3 – Pool Shock,14.
 Wood Pallet,PALLET,Pallet,660.0,06-01-2026,,14.0,0.0,1.1,0.0
 Yellow Antifreeze Bottle,BOTTLE-AFYEL,bottle,7386.44,07-15-2026,Line 1 – Simply Cool,14.0,0.0,1.0,159606.72
 Yellow Antifreeze Cap,CAP-AFYEL,cap,0.0,04-09-2026,Line 1 – Simply Cool,14.0,0.0,1.0,159606.72
-Yellow Oil Bottle,BOT-OIL-QTYL,bottle,63927.94,07-10-2026,Line 2 – 4 Seasons Oil 5W20,14.0,0.0,1.1,122915.51999999997
+Yellow Oil Bottle,BOT-OIL-QTYL,bottle,63927.94,07-10-2026,Line 2 – 4 Seasons Oil 5W20,14.0,0.0,1.1,122915.51999999996
 ZeroX Label,LBL-45955,label,32344.8,1-1-2026,,14.0,0.0,1.0,183456.0
