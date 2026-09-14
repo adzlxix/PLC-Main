@@ -6,7 +6,7 @@ only requires editing that CSV file.
 
 from __future__ import annotations
 
-from file_utils import load_csv_strip
+from file_utils import load_csv_strip, normalize_id
 from helpers import Color
 
 LINE_SETTINGS_FILE = "LineSettings.csv"
@@ -21,7 +21,7 @@ def load_line_settings() -> dict[str, str]:
 
     lines: dict[str, str] = {}
     for _, row in df.iterrows():
-        line = str(row.get("Line", "")).strip()
+        line = normalize_id(row.get("Line", ""))
         name = str(row.get("LineName", "")).strip()
         if not line:
             continue

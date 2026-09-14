@@ -10,7 +10,7 @@ Equipment Master (EQ-01.csv)
 import pandas as pd
 
 from helpers import Color, menu_title
-from file_utils import load_csv_strip, save_csv
+from file_utils import load_csv_strip, save_csv, normalize_id, normalize_id_series
 
 EQ_FILE = "EQ-01.csv"
 
@@ -25,7 +25,7 @@ EQ_COLUMNS = [
 def load_equipment() -> pd.DataFrame:
     df = load_csv_strip(EQ_FILE, headers_default=EQ_COLUMNS)
 
-    df["Line"] = df["Line"].astype(str).str.strip()
+    df["Line"] = normalize_id_series(df["Line"])
     df["MachineType/Name"] = df["MachineType/Name"].astype(str).str.strip()
     df["Machine Code"] = df["Machine Code"].astype(str).str.strip().str.upper()
     df["Notes"] = df["Notes"].astype(str).str.strip()
@@ -44,7 +44,7 @@ def list_machines_for_line(line: str) -> list[dict]:
     Returns machines in CSV order for a given line.
     """
     df = load_equipment()
-    line = str(line).strip()
+    line = normalize_id(line)
 
     subset = df[df["Line"] == line]
     machines = []

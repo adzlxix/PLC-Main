@@ -27,7 +27,7 @@ from datetime import datetime
 import os
 import pandas as pd
 
-from file_utils import load_csv_strip, save_csv
+from file_utils import load_csv_strip, save_csv, normalize_id, normalize_id_series
 from helpers import Color, menu_title
 
 INVENTORY_FILE = "INV-01.csv"
@@ -38,17 +38,7 @@ LOW_STOCK_EXPORT_DIR = "low_stock_reports"
 REORDER_HORIZON_DAYS = 28
 
 def _norm_line(value) -> str:
-    """Normalize CSV line values such as 1, 1.0 and "1" to the same key."""
-    text = str(value).strip()
-    if text.lower() in ("", "nan", "none"):
-        return ""
-    try:
-        num = float(text)
-        if num.is_integer():
-            return str(int(num))
-    except Exception:
-        pass
-    return text
+    return normalize_id(value)
 
 
 
@@ -67,7 +57,7 @@ def load_line_settings() -> dict:
         if "Line" in df.columns and "LineName" in df.columns:
             out = {}
             for _, r in df.iterrows():
-                k = str(r["Line"]).strip()
+                k = normalize_id(r["Line"])
                 v = str(r["LineName"]).strip()
                 if k and v:
                     out[k] = v
@@ -92,7 +82,7 @@ def edit_line_capacity() -> None:
         if "MaxPalletsPerDay" not in df.columns:
             df["MaxPalletsPerDay"] = 0.0
 
-    df["Line"] = df["Line"].astype(str).str.strip()
+    df["Line"] = normalize_id_series(df["Line"])
     df["MaxPalletsPerDay"] = pd.to_numeric(
         df["MaxPalletsPerDay"], errors="coerce"
     ).fillna(0.0)

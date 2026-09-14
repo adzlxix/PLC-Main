@@ -19,7 +19,7 @@ import pandas as pd
 from datetime import datetime
 
 from helpers import Color, menu_title, parse_date_input, numeric_input
-from file_utils import load_csv_strip, save_csv
+from file_utils import load_csv_strip, save_csv, normalize_id, normalize_id_series
 from audit import log_audit
 from inventory import adjust_inventory_quantity, component_exists, load_inventory
 from kits import load_kits
@@ -67,7 +67,8 @@ def load_production() -> pd.DataFrame:
 
     # Keep consistent types for common fields
     for col in ["ProductionID", "Date", "Line", "Product", "ProductCode", "UnitType", "Notes"]:
-        df[col] = df[col].astype(str).fillna("").str.strip()
+        df[col] = df[col].fillna("").astype(str).str.strip()
+    df["Line"] = normalize_id_series(df["Line"])
 
     return df
 
@@ -93,7 +94,7 @@ def load_line_names() -> dict:
         df = load_csv_strip(LINE_SETTINGS_FILE)
         if {"Line", "LineName"}.issubset(df.columns):
             return {
-                str(r["Line"]).strip(): str(r["LineName"]).strip()
+                normalize_id(r["Line"]): str(r["LineName"]).strip()
                 for _, r in df.iterrows()
                 if str(r["LineName"]).strip()
             }
@@ -544,10 +545,7 @@ def record_production_from_issued_labels() -> None:
     unit_type = run["UnitType"].strip().lower()
     units_per_pallet = float(run.get("UnitsPerPallet", 0) or 0)
 
-    # Ensure runtime exists for this line/date (separate from PROD-01)
-    lr.ensure_runtime_for_line_date(date_str, line, entered_by="UNKNOWN", prompt_if_exists=True)
-
-    # Find kits row for this product+line to consume BOM
+    # Find kits row for this product+line to consume BOM before writing runtime.
     product_kits = kits_df[
         (kits_df["Finished Product"].astype(str).str.strip() == product_name)
         & (kits_df["ProductCode"].astype(str).str.strip().str.upper() == str(product_code).strip().upper())
@@ -557,6 +555,9 @@ def record_production_from_issued_labels() -> None:
     if product_kits.empty:
         print(Color.RED + "\nNo BOM rows found for that product/line in Kits.csv.\n" + Color.RESET)
         return
+
+    # Ensure runtime exists only after the label run has a valid BOM.
+    lr.ensure_runtime_for_line_date(date_str, line, entered_by="UNKNOWN", prompt_if_exists=True)
 
     # Ask used range
     try:
@@ -821,14 +822,19 @@ def _record_manual_batch_for_date(df: pd.DataFrame, kits_df: pd.DataFrame, date_
 
     while True:
         line = _choose_line()
+        if not line:
+            return df
+
+        # Select a valid product before writing runtime. This prevents an orphan
+        # runtime record when the user cancels or a line has no configured products.
+        prod = _choose_product_from_kits(kits_df, line)
+        if not prod:
+            return df
+
         runtime_key = (date_str, str(line))
         if runtime_key not in runtime_checked:
             lr.ensure_runtime_for_line_date(date_str, line, entered_by=recorded_by, prompt_if_exists=True)
             runtime_checked.add(runtime_key)
-
-        prod = _choose_product_from_kits(kits_df, line)
-        if not prod:
-            return df
 
         product_name = str(prod["Finished Product"]).strip()
         product_code = str(prod["ProductCode"]).strip().upper()

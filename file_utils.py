@@ -53,6 +53,32 @@ def load_csv_strip(filename: str, headers_default: Optional[List[str]] = None) -
     return df
 
 
+
+def normalize_id(value) -> str:
+    """Normalize identifier-like CSV values (e.g. 1, 1.0, "1") to one string key.
+
+    Pandas may infer numeric columns when a CSV contains blank rows, turning line IDs
+    such as 1 into 1.0. This helper prevents string comparisons like "1" == "1.0"
+    from silently failing.
+    """
+    if value is None:
+        return ""
+    text = str(value).strip()
+    if text.lower() in ("", "nan", "none", "<na>"):
+        return ""
+    try:
+        num = float(text)
+        if num.is_integer():
+            return str(int(num))
+    except (TypeError, ValueError, OverflowError):
+        pass
+    return text
+
+
+def normalize_id_series(series: pd.Series) -> pd.Series:
+    """Vectorized convenience wrapper for normalize_id()."""
+    return series.map(normalize_id)
+
 def save_csv(df: pd.DataFrame, filename: str) -> None:
     """
     Save DataFrame to CSV with index=False.

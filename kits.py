@@ -11,7 +11,7 @@ from typing import Optional, Tuple, List
 
 import pandas as pd
 
-from file_utils import load_csv_strip, save_csv
+from file_utils import load_csv_strip, save_csv, normalize_id_series
 from helpers import Color, menu_title, numeric_input, confirm
 from component_type_manager import get_component_types, add_new_component_type
 from inventory import add_or_update_inventory_component, load_inventory
@@ -94,7 +94,11 @@ def load_kits() -> pd.DataFrame:
         series = df[col] if col in df.columns else ""
         if hasattr(series, "fillna"):
             series = series.fillna("")
-        df[col] = pd.Series(series).astype(str).str.strip()
+        df[col] = pd.Series(series).fillna("").astype(str).str.strip()
+
+    # Line IDs are identifiers, not numeric measurements. Pandas can infer 1 as 1.0
+    # when Kits.csv contains blank separator rows, so normalize before comparisons.
+    df["Line"] = normalize_id_series(df["Line"])
 
     df["ConsumptionBasis"] = df["ConsumptionBasis"].astype(str).str.strip().str.upper()
     df.loc[~df["ConsumptionBasis"].isin(["PER_UNIT", "PER_CASE", "PER_PALLET"]), "ConsumptionBasis"] = "PER_UNIT"

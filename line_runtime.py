@@ -11,7 +11,7 @@ from datetime import datetime
 import pandas as pd
 
 from helpers import Color, menu_title, parse_date_input
-from file_utils import load_csv_strip, save_csv
+from file_utils import load_csv_strip, save_csv, normalize_id, normalize_id_series
 from line_utils import choose_line as choose_configured_line, load_line_settings
 
 LINE_RUNTIME_FILE = "LINE-RUN-01.csv"
@@ -32,7 +32,7 @@ def load_line_names() -> dict:
         df = load_csv_strip(LINE_SETTINGS_FILE)
         if {"Line", "LineName"}.issubset(df.columns):
             return {
-                str(r["Line"]).strip(): str(r["LineName"]).strip()
+                normalize_id(r["Line"]): str(r["LineName"]).strip()
                 for _, r in df.iterrows()
                 if str(r.get("LineName", "")).strip()
             }
@@ -48,7 +48,8 @@ def load_line_runtime() -> pd.DataFrame:
             df[col] = ""
 
     for col in ["Date", "Line", "Notes", "EnteredBy", "LastUpdated"]:
-        df[col] = df[col].astype(str).fillna("").str.strip()
+        df[col] = df[col].fillna("").astype(str).str.strip()
+    df["Line"] = normalize_id_series(df["Line"])
     df["HoursRan"] = pd.to_numeric(df["HoursRan"], errors="coerce").fillna(0.0)
     return df[LINE_RUNTIME_COLUMNS]
 

@@ -1,0 +1,31 @@
+PLC-Main code audit — 2026-09-14
+
+FIXED
+1. Kits.csv Line IDs were being inferred by pandas as floats because the CSV contains blank separator rows.
+   Example: Line 1 loaded as "1.0" while the menu selected "1".
+   Result: production incorrectly reported "No products found in Kits.csv for Line 1."
+   Fix: shared identifier normalization added and applied to Kits, Production, Runtime, Equipment, Demand, Finished Goods, and Line Settings paths.
+
+2. String cleanup order in production/runtime loaders used astype(str) before fillna(), which can turn blanks into literal "nan" strings.
+   Fix: fillna("") now happens before string conversion.
+
+3. Manual production saved line runtime before confirming that a valid product could be selected.
+   Result: orphan runtime records could be created after a failed/cancelled product selection.
+   Fix: product is now selected first; runtime is recorded only after a valid product is chosen.
+   The issued-label workflow similarly validates the BOM before writing runtime.
+
+VERIFICATION PERFORMED
+- Python compileall: PASS
+- Import test for all project modules: PASS
+- Main menu startup/exit smoke test: PASS
+- Kits.csv line normalization: PASS
+- Line 1 now returns 111 BOM component rows / 19 finished products.
+- Lines 1–7 all resolve to configured products.
+- Production, finished-goods, runtime, and equipment line IDs normalize consistently to 1–7.
+- Line 1 equipment lookup returns configured machines.
+
+DATA
+- No inventory, production, receiving, finished-goods, or raw-material CSV quantities were altered by this code fix.
+
+REVIEW NOTE
+- The application writes multiple CSV ledgers during a production transaction. A power loss or write failure between those file writes can theoretically leave a partial transaction (for example PROD saved but a later inventory/FG write failing). This is an architectural reliability limitation of a multi-CSV system rather than the Line 1 bug. A future improvement would be atomic transaction/rollback handling or migration to SQLite/PostgreSQL.

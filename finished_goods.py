@@ -21,7 +21,7 @@ from datetime import datetime
 import uuid
 import pandas as pd
 
-from file_utils import load_csv_strip, save_csv
+from file_utils import load_csv_strip, save_csv, normalize_id_series
 from audit import log_audit
 from helpers import Color, menu_title, parse_date_input, numeric_input, confirm
 from kits import load_kits
@@ -49,6 +49,8 @@ def load_fg() -> pd.DataFrame:
         if c not in df.columns:
             df[c] = ""
     df["QtyPallets"] = pd.to_numeric(df["QtyPallets"], errors="coerce").fillna(0.0)
+    if "Line" in df.columns:
+        df["Line"] = normalize_id_series(df["Line"])
     return df
 
 
@@ -176,7 +178,7 @@ def _known_products_for_adjustment() -> pd.DataFrame:
     combined = pd.concat(rows, ignore_index=True).fillna("")
     combined["ProductCode"] = combined["ProductCode"].astype(str).str.strip().str.upper()
     combined["Product"] = combined["Product"].astype(str).str.strip()
-    combined["Line"] = combined["Line"].astype(str).str.strip()
+    combined["Line"] = normalize_id_series(combined["Line"])
     combined = combined[(combined["ProductCode"] != "") | (combined["Product"] != "")].drop_duplicates()
 
     on_hand = current_on_hand()
