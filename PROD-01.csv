@@ -1,4 +1,4 @@
-﻿ProductionID,Date,Line,Product,ProductCode,UnitType,UnitsCompleted,UnitsPerPallet,PalletsCompleted,Notes
+ProductionID,Date,Line,Product,ProductCode,UnitType,UnitsCompleted,UnitsPerPallet,PalletsCompleted,Notes
 PROD1-ATGP50-25322,11-18-2025,1,Green Power 50,ATGP50,case,900.0,36.0,25.0,
 PROD3-ATWWPX-25322,11-18-2025,3,PolarX Windshield Wash -20,ATWWPX,case,245.0,35.0,7.0,
 PROD2-TBD-25322,11-18-2025,2,4 Seasons Oil 5W30,FSMO53,case,182.0,182.0,1.0,
@@ -706,7 +706,7 @@ PROD704-FSMO53-26232,08-20-2026,2,4 Seasons Oil 5W30,FSMO53,case,182.0,182.0,1.0
 PROD705-FSMO13-26232,08-20-2026,2,4 Seasons Oil 10W30,FSMO13,case,364.0,182.0,2.0,Daily update backfill
 PROD706-ATGLP5055-26232,08-20-2026,4,Drum Global Power 50,ATGLP5055,drum,6.0,4.0,1.5,Daily update backfill
 PROD707-ATCP50-55-26232,08-20-2026,4,Drum Cool Power 50,ATCP50-55,drum,6.0,4.0,1.5,Daily update backfill
-PROD708-TBD-26232,08-20-2026,4,Drum Super Purple,TBD,drum,2.0,4.0,0.05714285714285714,Daily update backfill | Drum Super Purple
+PROD708-TBD-26232,08-20-2026,4,Drum Super Purple,TBD,drum,2.0,4.0,0.0571428571428571,Daily update backfill | Drum Super Purple
 PROD709-TBDTTRV50P-26233,08-21-2026,4,Totes RV-50 Pink,TBDTTRV50P,tote,11.0,1.0,11.0,Daily update backfill
 PROD710-SAGR50-26233,08-21-2026,1,Simply Green,SAGR50,case,180.0,36.0,5.0,Daily update backfill
 PROD711-ATWWPX-26233,08-21-2026,3,PolarX W/Wash -20,ATWWPX,case,630.0,35.0,18.0,Daily update backfill
@@ -777,3 +777,8 @@ PROD775-OTRW05-26252,09-09-2026,4,Drum OTR-0,OTRW05,drum,32.0,4.0,8.0,Daily upda
 PROD776-PUREAIRDEF-26252,09-09-2026,5,PureAir DEF,PUREAIRDEF,case,400.0,80.0,5.0,Daily update backfill
 PROD777-CLF-QT-26252,09-09-2026,6,Quick Lite,CLF-QT,case,288.0,72.0,4.0,Daily update backfill | Charcoal
 PROD778-TOTERV100TBD-26252,09-09-2026,4,Totes RV-100 Blue,TOTERV100TBD,tote,3.0,1.0,3.0,Daily update backfill | PG
+PROD779-ATGP50-26253,09-10-2026,1,Green Power 50,ATGP50,case,504.0,36.0,14.0,
+PROD780-FSMOTF-26253,09-10-2026,2,4 Seasons Oil ATF,FSMOTF,case,182.0,182.0,1.0,
+PROD781-ATRE501-26253,09-10-2026,4,Drum RV-50 Pink,ATRE501,drum,48.0,4.0,12.0,
+PROD782-RESD25-26253,09-10-2026,5,Resolute DEF 2.5 Gal classic,RESD25,case,960.0,80.0,12.0,
+PROD783-CLF-QT-26253,09-10-2026,6,Quick Lite,CLF-QT,case,216.0,72.0,3.0,

@@ -3068,7 +3068,7 @@ Timestamp,Component,ComponentCode,ChangeType,DeltaQty,NewQty,Reference,Notes
 2026-08-26 15:02:26,Empty Tote 275 Gal,TBDEMPTYTOTE275,production_replay_0630_baseline,-6.0,-54.0,PROD676-TBDTTRV50P-26226,08-14-2026 | Totes RV-50 Pink | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil 5W30 Front Label,LABEL-61110-F,production_replay_0630_baseline,-1135.68,86914.56000000001,PROD677-FSMO53-26226,08-14-2026 | 4 Seasons Oil 5W30 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil 5W30 Back Label,LABEL-61110-B,production_replay_0630_baseline,-1135.68,86914.56000000001,PROD677-FSMO53-26226,08-14-2026 | 4 Seasons Oil 5W30 | Rebuilt from confirmed 06/30 baseline
-2026-08-26 15:02:26,Black Oil Cap,CAP-OIL,production_replay_0630_baseline,-1102.92,221700.71999999997,PROD677-FSMO53-26226,08-14-2026 | 4 Seasons Oil 5W30 | Rebuilt from confirmed 06/30 baseline
+2026-08-26 15:02:26,Black Oil Cap,CAP-OIL,production_replay_0630_baseline,-1102.92,221700.72,PROD677-FSMO53-26226,08-14-2026 | 4 Seasons Oil 5W30 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil Box,BOX-4SOIL,production_replay_0630_baseline,-182.0,12.0,PROD677-FSMO53-26226,08-14-2026 | 4 Seasons Oil 5W30 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,Yellow Oil Bottle,BOT-OIL-QTYL,production_replay_0630_baseline,-1097.4599999999998,2852.360000000017,PROD677-FSMO53-26226,08-14-2026 | 4 Seasons Oil 5W30 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil 10W30 Front Label,LABEL-61107-F,production_replay_0630_baseline,-2271.36,29507.52,PROD678-FSMO13-26226,08-14-2026 | 4 Seasons Oil 10W30 | Rebuilt from confirmed 06/30 baseline
@@ -3103,7 +3103,7 @@ Timestamp,Component,ComponentCode,ChangeType,DeltaQty,NewQty,Reference,Notes
 2026-08-26 15:02:26,8Brand Box,BOX-WW/BL,production_replay_0630_baseline,-70.35,29608.27500000001,PROD686-ATRE506-26229,08-17-2026 | RV Antifreeze -50 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil 10W30 Front Label,LABEL-61107-F,production_replay_0630_baseline,-1135.68,28371.84,PROD687-FSMO13-26229,08-17-2026 | 4 Seasons Oil 10W30 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil 10W30 Back Label,LABEL-61107-B,production_replay_0630_baseline,-1135.68,28371.84,PROD687-FSMO13-26229,08-17-2026 | 4 Seasons Oil 10W30 | Rebuilt from confirmed 06/30 baseline
-2026-08-26 15:02:26,Black Oil Cap,CAP-OIL,production_replay_0630_baseline,-1102.92,218391.95999999996,PROD687-FSMO13-26229,08-17-2026 | 4 Seasons Oil 10W30 | Rebuilt from confirmed 06/30 baseline
+2026-08-26 15:02:26,Black Oil Cap,CAP-OIL,production_replay_0630_baseline,-1102.92,218391.96,PROD687-FSMO13-26229,08-17-2026 | 4 Seasons Oil 10W30 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil Box,BOX-4SOIL,production_replay_0630_baseline,-182.0,-534.0,PROD687-FSMO13-26229,08-17-2026 | 4 Seasons Oil 10W30 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,Yellow Oil Bottle,BOT-OIL-QTYL,production_replay_0630_baseline,-1097.4599999999998,-440.0199999999825,PROD687-FSMO13-26229,08-17-2026 | 4 Seasons Oil 10W30 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,Yellow Oil Bottle,BOT-OIL-QTYL,production_replay_0630_baseline,-1097.4599999999998,-1537.4799999999825,PROD688-FSMO14-26229,08-17-2026 | 4 Seasons Oil 10W40 | Rebuilt from confirmed 06/30 baseline
@@ -3259,3 +3259,24 @@ Timestamp,Component,ComponentCode,ChangeType,DeltaQty,NewQty,Reference,Notes
 2026-08-26 15:02:26,Black Oil Cap,CAP-OIL,production_replay_0630_baseline,-2205.84,201848.15999999983,PROD726-FSMO14-26237,08-25-2026 | 4 Seasons Oil 10W40 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil Box,BOX-4SOIL,production_replay_0630_baseline,-364.0,-3082.0,PROD726-FSMO14-26237,08-25-2026 | 4 Seasons Oil 10W40 | Rebuilt from confirmed 06/30 baseline
 2026-09-10 12:20:21,DEF 2.5 Gal Spout,DEFSPOUT,stocktake_set_count,18027.6,18460.0,STOCKTAKE_09-10-2026,Stocktake set count
+2026-09-14 13:57:26,White Cap,CAP-WH,production_consume,-3054.24,99250.2,PROD779-ATGP50-26253,Line 1 – Green Power 50
+2026-09-14 13:57:26,Green Power 50 Front Label,LABEL-00048-F,production_consume,-3144.96,66072.43999999999,PROD779-ATGP50-26253,Line 1 – Green Power 50
+2026-09-14 13:57:26,Green Power 50 Back Label,LABEL-00048-B,production_consume,-3144.96,66072.43999999999,PROD779-ATGP50-26253,Line 1 – Green Power 50
+2026-09-14 13:57:26,Antifreeze Box,BOX-AF-NEW,production_consume,-506.5199999999999,18832.6,PROD779-ATGP50-26253,Line 1 – Green Power 50
+2026-09-14 13:57:26,Yellow Antifreeze Bottle,BOTTLE-AFYEL,production_consume,-3054.24,4332.199999999999,PROD779-ATGP50-26253,Line 1 – Green Power 50
+2026-09-14 13:58:06,Yellow Oil Bottle,BOT-OIL-QTYL,production_consume,-1097.4599999999998,62830.48,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
+2026-09-14 13:58:06,4 Seasons Oil ATF Front Label,LABEL-61111-F,production_consume,-1135.68,43864.32,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
+2026-09-14 13:58:06,4 Seasons Oil ATF Back Label,LABEL-61111-B,production_consume,-1135.68,43864.32,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
+2026-09-14 13:58:06,Black Oil Cap,CAP-OIL,production_consume,-1102.92,152764.96,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
+2026-09-14 13:58:06,4 Seasons Oil Box,BOX-4SOIL,production_consume,-182.0,37908.0,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
+2026-09-14 14:00:37,Blue Drum 55 Gal,DRUM-MT55,production_consume,-48.048,861.039,PROD781-ATRE501-26253,Line 4 – Drum RV-50 Pink
+2026-09-14 14:00:37,RV-50 Pink Drum Label,TBD,production_consume,-48.48,451.52,PROD781-ATRE501-26253,Line 4 – Drum RV-50 Pink
+2026-09-14 14:00:57,DEF Cap,CAP-DEF,production_consume,-964.8,54022.6,PROD782-RESD25-26253,Line 5 – Resolute DEF 2.5 Gal classic
+2026-09-14 14:00:57,DEF 2.5 Gal Bottle,BOT-DEF2.5,production_consume,-964.8,2417.6000000000004,PROD782-RESD25-26253,Line 5 – Resolute DEF 2.5 Gal classic
+2026-09-14 14:00:57,Resolute DEF 2.5 Gal Box Classic,RESD25-BOX,production_consume,-964.8,37771.6,PROD782-RESD25-26253,Line 5 – Resolute DEF 2.5 Gal classic
+2026-09-14 14:00:57,DEF 2.5 Gal Spout,DEFSPOUT,production_consume,-964.8,17495.2,PROD782-RESD25-26253,Line 5 – Resolute DEF 2.5 Gal classic
+2026-09-14 14:01:11,Quik Lite Bottle,BOT-CHAR,production_consume,-2592.0,51176.0,PROD783-CLF-QT-26253,Line 6 – Quick Lite
+2026-09-14 14:01:12,Quik Lite Front Label,LBLF-CHAR,production_consume,-2695.6800000000003,36029.04,PROD783-CLF-QT-26253,Line 6 – Quick Lite
+2026-09-14 14:01:12,Quik Lite Back Label,LBLB-CHAR,production_consume,-2695.6800000000003,36029.04,PROD783-CLF-QT-26253,Line 6 – Quick Lite
+2026-09-14 14:01:12,Quik Lite Cap,CAP-CHAR,production_consume,-2643.84,233974.52,PROD783-CLF-QT-26253,Line 6 – Quick Lite
+2026-09-14 14:01:12,Quik Lite Box,BOX-CHAR,production_consume,-216.0,6560.0,PROD783-CLF-QT-26253,Line 6 – Quick Lite
