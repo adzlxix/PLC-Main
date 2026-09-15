@@ -902,10 +902,13 @@ def _record_manual_batch_for_date(df: pd.DataFrame, kits_df: pd.DataFrame, date_
 
         shortage_errors = _validate_consumption_availability(consumption_preview)
         if shortage_errors:
-            print(Color.YELLOW + "\nWARNING: Production will create negative inventory for:" + Color.RESET)
+            print(Color.RED + "\nInsufficient stock to post this production:" + Color.RESET)
             for err in shortage_errors:
-                print(Color.YELLOW + f" - {err}" + Color.RESET)
-            print(Color.YELLOW + "You may continue if the production is confirmed and reconcile the stock count/receiving afterward." + Color.RESET)
+                print(Color.RED + f" - {err}" + Color.RESET)
+            again = input(f"Add another production for {date_str}? (Y/n): ").strip().lower()
+            if again in ("n", "no"):
+                return df
+            continue
 
         if input("\nConfirm production entry? (y/n): ").strip().lower() != "y":
             print(Color.YELLOW + "\nProduction cancelled. No changes made.\n" + Color.RESET)

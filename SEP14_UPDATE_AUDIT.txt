@@ -1,0 +1,8 @@
+PLC update 2026-09-14
+Production appended: 16 records covering 09/10/2026-09/14/2026.
+Receiving appended: none. Receiving cutoff remains after 09/08/2026.
+Raw materials changed: no. Finished goods changed: no.
+INV consumption applied from Kits.csv for all INV components.
+Kit components added to INV as zero-count placeholders: 31. Quantities were not invented.
+Canonical mappings fixed: Empty Tote 275 Gal -> Empty Totes Recon 275 gal; PureAir DEF box -> Pure Air DEF 2.5 Gal Box.
+Any zero placeholder must be updated by physical count/receiving before its balance can be considered accurate.

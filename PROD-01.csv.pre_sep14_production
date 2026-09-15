@@ -1,4 +1,4 @@
-ProductionID,Date,Line,Product,ProductCode,UnitType,UnitsCompleted,UnitsPerPallet,PalletsCompleted,Notes
+﻿ProductionID,Date,Line,Product,ProductCode,UnitType,UnitsCompleted,UnitsPerPallet,PalletsCompleted,Notes
 PROD1-ATGP50-25322,11-18-2025,1,Green Power 50,ATGP50,case,900.0,36.0,25.0,
 PROD3-ATWWPX-25322,11-18-2025,3,PolarX Windshield Wash -20,ATWWPX,case,245.0,35.0,7.0,
 PROD2-TBD-25322,11-18-2025,2,4 Seasons Oil 5W30,FSMO53,case,182.0,182.0,1.0,
@@ -725,3 +725,55 @@ PROD723-OTRWWSHDEICER1G-26237,08-25-2026,1,OTR -25 W/Wash,OTRWWSHDEICER1G,case,7
 PROD724-TBDTTRV50P-26237,08-25-2026,4,Totes RV-50 Pink,TBDTTRV50P,tote,13.0,1.0,13.0,Daily update backfill
 PROD725-ATWWPX-26237,08-25-2026,3,PolarX W/Wash -20,ATWWPX,case,420.0,35.0,12.0,Daily update backfill
 PROD726-FSMO14-26237,08-25-2026,2,4 Seasons Oil 10W40,FSMO14,case,364.0,182.0,2.0,Daily update backfill
+PROD727-ATWW55-26243,08-31-2026,4,Drum W/Wash -20,ATWW55,drum,12.0,4.0,3.0,Imperial production | Daily update backfill
+PROD728-OTRW255-26243,08-31-2026,4,Drum OTR-25,OTRW255,drum,120.0,4.0,30.0,Daily update backfill
+PROD729-ATRE506-26243,08-31-2026,3,RV Antifreeze -50,ATRE506,case,525.0,35.0,15.0,Daily update backfill
+PROD730-FSMO53-26243,08-31-2026,2,4 Seasons Oil 5W30,FSMO53,case,546.0,182.0,3.0,Daily update backfill
+PROD731-FSMO52-26243,08-31-2026,2,4 Seasons Oil 5W20,FSMO52,case,182.0,182.0,1.0,Daily update backfill
+PROD732-ATGLP50-26243,08-31-2026,1,Global Power 50,ATGLP50,case,36.0,36.0,1.0,Daily update backfill | Source text: Globel power
+PROD733-ATRE501-26244,09-01-2026,4,Drum RV-50 Pink,ATRE501,drum,3.0,4.0,0.75,Daily update backfill | PG
+PROD734-OTRW255-26244,09-01-2026,4,Drum OTR-25,OTRW255,drum,84.0,4.0,21.0,Daily update backfill
+PROD735-ATRE506-26244,09-01-2026,3,RV Antifreeze -50,ATRE506,case,980.0,35.0,28.0,Daily update backfill
+PROD736-FSMO14-26244,09-01-2026,2,4 Seasons Oil 10W40,FSMO14,case,182.0,182.0,1.0,Daily update backfill
+PROD737-FSMO52-26244,09-01-2026,2,4 Seasons Oil 5W20,FSMO52,case,546.0,182.0,3.0,Daily update backfill
+PROD738-TBD-26244,09-01-2026,4,Drum Bug Wash +32,TBD,drum,1.0,4.0,0.25,Daily update backfill | No matching kit; history only
+PROD739-CLF-QT-26244,09-01-2026,6,Quick Lite,CLF-QT,case,144.0,72.0,2.0,Daily update backfill | Charcoal
+PROD740-ATRE501-26245,09-02-2026,4,Drum RV-50 Pink,ATRE501,drum,4.0,4.0,1.0,Daily update backfill
+PROD741-OTRW05-26245,09-02-2026,4,Drum OTR-0,OTRW05,drum,32.0,4.0,8.0,Daily update backfill
+PROD742-ATRE506-26245,09-02-2026,3,RV Antifreeze -50,ATRE506,case,1120.0,35.0,32.0,Daily update backfill
+PROD743-FSMO14-26245,09-02-2026,2,4 Seasons Oil 10W40,FSMO14,case,364.0,182.0,2.0,Daily update backfill
+PROD744-FSMO13-26245,09-02-2026,2,4 Seasons Oil 10W30,FSMO13,case,182.0,182.0,1.0,Daily update backfill
+PROD745-CLF-QT-26245,09-02-2026,6,Quick Lite,CLF-QT,case,72.0,72.0,1.0,Daily update backfill | Charcoal
+PROD746-ATWW55-26246,09-03-2026,4,Drum W/Wash -20,ATWW55,drum,32.0,4.0,8.0,Imperial production | Daily update backfill
+PROD747-ATRE501-26246,09-03-2026,4,Drum RV-50 Pink,ATRE501,drum,24.0,4.0,6.0,Daily update backfill
+PROD748-ATRE506-26246,09-03-2026,3,RV Antifreeze -50,ATRE506,case,175.0,35.0,5.0,Daily update backfill
+PROD749-OTRW05-26246,09-03-2026,4,Drum OTR-0,OTRW05,drum,40.0,4.0,10.0,Daily update backfill
+PROD750-OTRWWSH01G-26246,09-03-2026,1,OTR 0 W/Wash,OTRWWSH01G,case,684.0,36.0,19.0,Daily update backfill
+PROD751-RESD25-26246,09-03-2026,5,Resolute DEF 2.5 Gal classic,RESD25,case,240.0,80.0,3.0,Daily update backfill
+PROD752-PRED25-26246,09-03-2026,5,Resolute DEF 2.5 Gal premium,PRED25,case,640.0,80.0,8.0,Daily update backfill
+PROD753-CLF-QT-26246,09-03-2026,6,Quick Lite,CLF-QT,case,144.0,72.0,2.0,Daily update backfill | Charcoal
+PROD754-ATRE501-26247,09-04-2026,4,Drum RV-50 Pink,ATRE501,drum,16.0,4.0,4.0,Daily update backfill
+PROD755-RSW201-26247,09-04-2026,3,Resolute -20 W/Wash,RSW201,case,350.0,35.0,10.0,Daily update backfill
+PROD756-RSW301-26247,09-04-2026,3,Resolute -30 W/Wash,RSW301,case,175.0,35.0,5.0,Daily update backfill
+PROD757-OTRW05-26247,09-04-2026,4,Drum OTR-0,OTRW05,drum,12.0,4.0,3.0,Daily update backfill
+PROD758-RESD25-26247,09-04-2026,5,Resolute DEF 2.5 Gal classic,RESD25,case,320.0,80.0,4.0,Daily update backfill
+PROD759-PRED25-26247,09-04-2026,5,Resolute DEF 2.5 Gal premium,PRED25,case,400.0,80.0,5.0,Daily update backfill
+PROD760-CLF-QT-26247,09-04-2026,6,Quick Lite,CLF-QT,case,72.0,72.0,1.0,Daily update backfill | Charcoal
+PROD761-PUREAIRDEF-26248,09-05-2026,5,PureAir DEF,PUREAIRDEF,case,240.0,80.0,3.0,Daily update backfill
+PROD762-OTRW05-26248,09-05-2026,4,Drum OTR-0,OTRW05,drum,40.0,4.0,10.0,Daily update backfill
+PROD763-RESD25-26248,09-05-2026,5,Resolute DEF 2.5 Gal classic,RESD25,case,160.0,80.0,2.0,Daily update backfill
+PROD764-PRED25-26248,09-05-2026,5,Resolute DEF 2.5 Gal premium,PRED25,case,160.0,80.0,2.0,Daily update backfill
+PROD765-ATWWZX-26250,09-07-2026,3,ZeroX W/Wash,ATWWZX,case,105.0,35.0,3.0,Daily update backfill | Source: WW ZeroX-0
+PROD766-TBD-26250,09-07-2026,,PLC50,TBD,case,105.0,35.0,3.0,Daily update backfill | No matching kit; history only | assumed 35 cases/pallet for log conversion
+PROD767-TBD-26250,09-07-2026,4,Super Purple 5 Gal Bucket,TBD,bucket,96.0,60.0,1.6,Daily update backfill | 96 individual buckets | no current matching kit
+PROD768-ATRE506-26251,09-08-2026,3,RV Antifreeze -50,ATRE506,case,630.0,35.0,18.0,Daily update backfill
+PROD769-RSW201-26251,09-08-2026,3,Resolute -20 W/Wash,RSW201,case,315.0,35.0,9.0,Daily update backfill
+PROD770-ATAB55-26251,09-08-2026,4,Drum DEF,ATAB55,drum,8.0,4.0,2.0,Daily update backfill
+PROD771-PUREAIRDEF-26251,09-08-2026,5,PureAir DEF,PUREAIRDEF,case,160.0,80.0,2.0,Daily update backfill
+PROD772-CLF-QT-26251,09-08-2026,6,Quick Lite,CLF-QT,case,216.0,72.0,3.0,Daily update backfill | Charcoal
+PROD773-ATGP50-26252,09-09-2026,1,Green Power 50,ATGP50,case,540.0,36.0,15.0,Daily update backfill
+PROD774-ATRE506-26252,09-09-2026,3,RV Antifreeze -50,ATRE506,case,245.0,35.0,7.0,Daily update backfill
+PROD775-OTRW05-26252,09-09-2026,4,Drum OTR-0,OTRW05,drum,32.0,4.0,8.0,Daily update backfill
+PROD776-PUREAIRDEF-26252,09-09-2026,5,PureAir DEF,PUREAIRDEF,case,400.0,80.0,5.0,Daily update backfill
+PROD777-CLF-QT-26252,09-09-2026,6,Quick Lite,CLF-QT,case,288.0,72.0,4.0,Daily update backfill | Charcoal
+PROD778-TOTERV100TBD-26252,09-09-2026,4,Totes RV-100 Blue,TOTERV100TBD,tote,3.0,1.0,3.0,Daily update backfill | PG

@@ -3259,24 +3259,64 @@ Timestamp,Component,ComponentCode,ChangeType,DeltaQty,NewQty,Reference,Notes
 2026-08-26 15:02:26,Black Oil Cap,CAP-OIL,production_replay_0630_baseline,-2205.84,201848.15999999983,PROD726-FSMO14-26237,08-25-2026 | 4 Seasons Oil 10W40 | Rebuilt from confirmed 06/30 baseline
 2026-08-26 15:02:26,4 Seasons Oil Box,BOX-4SOIL,production_replay_0630_baseline,-364.0,-3082.0,PROD726-FSMO14-26237,08-25-2026 | 4 Seasons Oil 10W40 | Rebuilt from confirmed 06/30 baseline
 2026-09-10 12:20:21,DEF 2.5 Gal Spout,DEFSPOUT,stocktake_set_count,18027.6,18460.0,STOCKTAKE_09-10-2026,Stocktake set count
-2026-09-14 13:57:26,White Cap,CAP-WH,production_consume,-3054.24,99250.2,PROD779-ATGP50-26253,Line 1 – Green Power 50
-2026-09-14 13:57:26,Green Power 50 Front Label,LABEL-00048-F,production_consume,-3144.96,66072.43999999999,PROD779-ATGP50-26253,Line 1 – Green Power 50
-2026-09-14 13:57:26,Green Power 50 Back Label,LABEL-00048-B,production_consume,-3144.96,66072.43999999999,PROD779-ATGP50-26253,Line 1 – Green Power 50
-2026-09-14 13:57:26,Antifreeze Box,BOX-AF-NEW,production_consume,-506.5199999999999,18832.6,PROD779-ATGP50-26253,Line 1 – Green Power 50
-2026-09-14 13:57:26,Yellow Antifreeze Bottle,BOTTLE-AFYEL,production_consume,-3054.24,4332.199999999999,PROD779-ATGP50-26253,Line 1 – Green Power 50
-2026-09-14 13:58:06,Yellow Oil Bottle,BOT-OIL-QTYL,production_consume,-1097.4599999999998,62830.48,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
-2026-09-14 13:58:06,4 Seasons Oil ATF Front Label,LABEL-61111-F,production_consume,-1135.68,43864.32,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
-2026-09-14 13:58:06,4 Seasons Oil ATF Back Label,LABEL-61111-B,production_consume,-1135.68,43864.32,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
-2026-09-14 13:58:06,Black Oil Cap,CAP-OIL,production_consume,-1102.92,152764.96,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
-2026-09-14 13:58:06,4 Seasons Oil Box,BOX-4SOIL,production_consume,-182.0,37908.0,PROD780-FSMOTF-26253,Line 2 – 4 Seasons Oil ATF
-2026-09-14 14:00:37,Blue Drum 55 Gal,DRUM-MT55,production_consume,-48.048,861.039,PROD781-ATRE501-26253,Line 4 – Drum RV-50 Pink
-2026-09-14 14:00:37,RV-50 Pink Drum Label,TBD,production_consume,-48.48,451.52,PROD781-ATRE501-26253,Line 4 – Drum RV-50 Pink
-2026-09-14 14:00:57,DEF Cap,CAP-DEF,production_consume,-964.8,54022.6,PROD782-RESD25-26253,Line 5 – Resolute DEF 2.5 Gal classic
-2026-09-14 14:00:57,DEF 2.5 Gal Bottle,BOT-DEF2.5,production_consume,-964.8,2417.6000000000004,PROD782-RESD25-26253,Line 5 – Resolute DEF 2.5 Gal classic
-2026-09-14 14:00:57,Resolute DEF 2.5 Gal Box Classic,RESD25-BOX,production_consume,-964.8,37771.6,PROD782-RESD25-26253,Line 5 – Resolute DEF 2.5 Gal classic
-2026-09-14 14:00:57,DEF 2.5 Gal Spout,DEFSPOUT,production_consume,-964.8,17495.2,PROD782-RESD25-26253,Line 5 – Resolute DEF 2.5 Gal classic
-2026-09-14 14:01:11,Quik Lite Bottle,BOT-CHAR,production_consume,-2592.0,51176.0,PROD783-CLF-QT-26253,Line 6 – Quick Lite
-2026-09-14 14:01:12,Quik Lite Front Label,LBLF-CHAR,production_consume,-2695.6800000000003,36029.04,PROD783-CLF-QT-26253,Line 6 – Quick Lite
-2026-09-14 14:01:12,Quik Lite Back Label,LBLB-CHAR,production_consume,-2695.6800000000003,36029.04,PROD783-CLF-QT-26253,Line 6 – Quick Lite
-2026-09-14 14:01:12,Quik Lite Cap,CAP-CHAR,production_consume,-2643.84,233974.52,PROD783-CLF-QT-26253,Line 6 – Quick Lite
-2026-09-14 14:01:12,Quik Lite Box,BOX-CHAR,production_consume,-216.0,6560.0,PROD783-CLF-QT-26253,Line 6 – Quick Lite
+2026-09-14 19:45:00,White Cap,CAP-WH,production_backfill_sep14,-3054.2400000000002,99250.2,PROD779-ATGP50-26253,09-10-2026 | Line 1 – Green Power 50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Green Power 50 Front Label,LABEL-00048-F,production_backfill_sep14,-3144.96,66072.43999999999,PROD779-ATGP50-26253,09-10-2026 | Line 1 – Green Power 50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Green Power 50 Back Label,LABEL-00048-B,production_backfill_sep14,-3144.96,66072.43999999999,PROD779-ATGP50-26253,09-10-2026 | Line 1 – Green Power 50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Antifreeze Box,BOX-AF-NEW,production_backfill_sep14,-506.5199999999999,18832.6,PROD779-ATGP50-26253,09-10-2026 | Line 1 – Green Power 50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Yellow Antifreeze Bottle,BOTTLE-AFYEL,production_backfill_sep14,-3054.2400000000002,4332.199999999999,PROD779-ATGP50-26253,09-10-2026 | Line 1 – Green Power 50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Yellow Oil Bottle,BOT-OIL-QTYL,production_backfill_sep14,-1097.4599999999998,62830.48,PROD780-FSMOTF-26253,09-10-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,4 Seasons Oil ATF Front Label,LABEL-61111-F,production_backfill_sep14,-1135.68,43864.32,PROD780-FSMOTF-26253,09-10-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,4 Seasons Oil ATF Back Label,LABEL-61111-B,production_backfill_sep14,-1135.68,43864.32,PROD780-FSMOTF-26253,09-10-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Black Oil Cap,CAP-OIL,production_backfill_sep14,-1102.92,152764.96,PROD780-FSMOTF-26253,09-10-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,4 Seasons Oil Box,BOX-4SOIL,production_backfill_sep14,-182.0,37908.0,PROD780-FSMOTF-26253,09-10-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Blue Drum 55 Gal,DRUM-MT55,production_backfill_sep14,-48.047999999999995,-127.13499999999999,PROD781-ATRE501-26253,09-10-2026 | Line 4 – Drum RV-50 Pink | Backfilled from daily update; INV only
+2026-09-14 19:45:00,RV-50 Pink Drum Label,TBD,production_backfill_sep14,-48.480000000000004,-48.480000000000004,PROD781-ATRE501-26253,09-10-2026 | Line 4 – Drum RV-50 Pink | Backfilled from daily update; INV only
+2026-09-14 19:45:00,DEF Cap,CAP-DEF,production_backfill_sep14,-964.8,54022.6,PROD782-RESD25-26253,09-10-2026 | Line 5 – Resolute DEF 2.5 Gal classic | Backfilled from daily update; INV only
+2026-09-14 19:45:00,DEF 2.5 Gal Bottle,BOT-DEF2.5,production_backfill_sep14,-964.8,2417.6000000000004,PROD782-RESD25-26253,09-10-2026 | Line 5 – Resolute DEF 2.5 Gal classic | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Resolute DEF 2.5 Gal Box Classic,RESD25-BOX,production_backfill_sep14,-964.8,37771.6,PROD782-RESD25-26253,09-10-2026 | Line 5 – Resolute DEF 2.5 Gal classic | Backfilled from daily update; INV only
+2026-09-14 19:45:00,DEF 2.5 Gal Spout,DEFSPOUT,production_backfill_sep14,-964.8,17495.2,PROD782-RESD25-26253,09-10-2026 | Line 5 – Resolute DEF 2.5 Gal classic | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Bottle,BOT-CHAR,production_backfill_sep14,-2592.0,51176.0,PROD783-CLF-QT-26253,09-10-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Front Label,LBLF-CHAR,production_backfill_sep14,-2695.6800000000003,36029.04,PROD783-CLF-QT-26253,09-10-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Back Label,LBLB-CHAR,production_backfill_sep14,-2695.6800000000003,36029.04,PROD783-CLF-QT-26253,09-10-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Cap,CAP-CHAR,production_backfill_sep14,-2643.84,233974.52,PROD783-CLF-QT-26253,09-10-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Box,BOX-CHAR,production_backfill_sep14,-216.0,6560.0,PROD783-CLF-QT-26253,09-10-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Empty Totes Recon 275 gal,TOTE-MT275,production_backfill_sep14,-2.0,64.0,PROD784-TOTERV100TBD-26253,09-10-2026 | Line 4 – Totes RV-100 Blue | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Blue Drum 55 Gal,DRUM-MT55,production_backfill_sep14,-6.029999999999999,-133.165,PROD785-TBD-26253,09-10-2026 | Line 4 – Drum RV-100 Blue | Backfilled from daily update; INV only
+2026-09-14 19:45:00,RV-100 Blue Drum Label,TBDRV100BDR,production_backfill_sep14,-6.029999999999999,-6.029999999999999,PROD785-TBD-26253,09-10-2026 | Line 4 – Drum RV-100 Blue | Backfilled from daily update; INV only
+2026-09-14 19:45:00,RV Antifreeze -50 Label,LBL-45915,production_backfill_sep14,-5460.0,235357.0,PROD786-ATRE506-26254,09-11-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Clear Round Bottle,BOTTLE-RD-NAT,production_backfill_sep14,-5302.5,-5302.5,PROD786-ATRE506-26254,09-11-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,White Cap,CAP-WH,production_backfill_sep14,-5302.5,93947.7,PROD786-ATRE506-26254,09-11-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,8Brand Box,BOX-WW/BL,production_backfill_sep14,-879.3749999999999,18246.725,PROD786-ATRE506-26254,09-11-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Yellow Oil Bottle,BOT-OIL-QTYL,production_backfill_sep14,-1097.4599999999998,61733.020000000004,PROD787-FSMOTF-26254,09-11-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,4 Seasons Oil ATF Front Label,LABEL-61111-F,production_backfill_sep14,-1135.68,42728.64,PROD787-FSMOTF-26254,09-11-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,4 Seasons Oil ATF Back Label,LABEL-61111-B,production_backfill_sep14,-1135.68,42728.64,PROD787-FSMOTF-26254,09-11-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Black Oil Cap,CAP-OIL,production_backfill_sep14,-1102.92,151662.03999999998,PROD787-FSMOTF-26254,09-11-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,4 Seasons Oil Box,BOX-4SOIL,production_backfill_sep14,-182.0,37726.0,PROD787-FSMOTF-26254,09-11-2026 | Line 2 – 4 Seasons Oil ATF | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Blue Drum 55 Gal,DRUM-MT55,production_backfill_sep14,-12.011999999999999,-145.177,PROD788-ATRE501-26254,09-11-2026 | Line 4 – Drum RV-50 Pink | Backfilled from daily update; INV only
+2026-09-14 19:45:00,RV-50 Pink Drum Label,TBD,production_backfill_sep14,-12.120000000000001,-60.60000000000001,PROD788-ATRE501-26254,09-11-2026 | Line 4 – Drum RV-50 Pink | Backfilled from daily update; INV only
+2026-09-14 19:45:00,DEF Cap,CAP-DEF,production_backfill_sep14,-964.8,53057.799999999996,PROD789-RESD25-26254,09-11-2026 | Line 5 – Resolute DEF 2.5 Gal classic | Backfilled from daily update; INV only
+2026-09-14 19:45:00,DEF 2.5 Gal Bottle,BOT-DEF2.5,production_backfill_sep14,-964.8,1452.8000000000004,PROD789-RESD25-26254,09-11-2026 | Line 5 – Resolute DEF 2.5 Gal classic | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Resolute DEF 2.5 Gal Box Classic,RESD25-BOX,production_backfill_sep14,-964.8,36806.799999999996,PROD789-RESD25-26254,09-11-2026 | Line 5 – Resolute DEF 2.5 Gal classic | Backfilled from daily update; INV only
+2026-09-14 19:45:00,DEF 2.5 Gal Spout,DEFSPOUT,production_backfill_sep14,-964.8,16530.4,PROD789-RESD25-26254,09-11-2026 | Line 5 – Resolute DEF 2.5 Gal classic | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Bottle,BOT-CHAR,production_backfill_sep14,-3456.0,47720.0,PROD790-CLF-QT-26254,09-11-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Front Label,LBLF-CHAR,production_backfill_sep14,-3594.2400000000002,32434.8,PROD790-CLF-QT-26254,09-11-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Back Label,LBLB-CHAR,production_backfill_sep14,-3594.2400000000002,32434.8,PROD790-CLF-QT-26254,09-11-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Cap,CAP-CHAR,production_backfill_sep14,-3525.12,230449.4,PROD790-CLF-QT-26254,09-11-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Box,BOX-CHAR,production_backfill_sep14,-288.0,6272.0,PROD790-CLF-QT-26254,09-11-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,RV Antifreeze -50 Label,LBL-45915,production_backfill_sep14,-5023.2,230333.8,PROD791-ATRE506-26255,09-12-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Clear Round Bottle,BOTTLE-RD-NAT,production_backfill_sep14,-4878.3,-10180.8,PROD791-ATRE506-26255,09-12-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,White Cap,CAP-WH,production_backfill_sep14,-4878.3,89069.4,PROD791-ATRE506-26255,09-12-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,8Brand Box,BOX-WW/BL,production_backfill_sep14,-809.0249999999999,17437.699999999997,PROD791-ATRE506-26255,09-12-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,RV Antifreeze -50 Label,LBL-45915,production_backfill_sep14,-3494.4,226839.4,PROD792-ATRE506-26256,09-13-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Clear Round Bottle,BOTTLE-RD-NAT,production_backfill_sep14,-3393.6,-13574.4,PROD792-ATRE506-26256,09-13-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,White Cap,CAP-WH,production_backfill_sep14,-3393.6,85675.79999999999,PROD792-ATRE506-26256,09-13-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,8Brand Box,BOX-WW/BL,production_backfill_sep14,-562.8,16874.899999999998,PROD792-ATRE506-26256,09-13-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,RV Antifreeze -50 Label,LBL-45915,production_backfill_sep14,-9609.6,217229.8,PROD793-ATRE506-26257,09-14-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Clear Round Bottle,BOTTLE-RD-NAT,production_backfill_sep14,-9332.4,-22906.8,PROD793-ATRE506-26257,09-14-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,White Cap,CAP-WH,production_backfill_sep14,-9332.4,76343.4,PROD793-ATRE506-26257,09-14-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,8Brand Box,BOX-WW/BL,production_backfill_sep14,-1547.6999999999998,15327.199999999997,PROD793-ATRE506-26257,09-14-2026 | Line 3 – RV Antifreeze -50 | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Bottle,BOT-CHAR,production_backfill_sep14,-2592.0,45128.0,PROD794-CLF-QT-26257,09-14-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Front Label,LBLF-CHAR,production_backfill_sep14,-2695.6800000000003,29739.12,PROD794-CLF-QT-26257,09-14-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Back Label,LBLB-CHAR,production_backfill_sep14,-2695.6800000000003,29739.12,PROD794-CLF-QT-26257,09-14-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Cap,CAP-CHAR,production_backfill_sep14,-2643.84,227805.56,PROD794-CLF-QT-26257,09-14-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
+2026-09-14 19:45:00,Quik Lite Box,BOX-CHAR,production_backfill_sep14,-216.0,6056.0,PROD794-CLF-QT-26257,09-14-2026 | Line 6 – Quick Lite | Backfilled from daily update; INV only
